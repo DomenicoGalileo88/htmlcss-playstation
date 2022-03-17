@@ -1,0 +1,58 @@
+:root{
+    --bg_dark: rgba(0, 0, 0, 1);
+    --bg_btn_nav: rgba(54, 54, 54, 1);
+    --bg_btn_returnal: rgba(205, 61, 15, 1);
+    --bg_light: rgba(255, 255, 255, 1);
+    --bg_btn_console: rgba(45, 100, 230, 1);
+    --bg_card_game: rgba(31, 31, 31, 1);
+    --color_text_secondary: rgba(120, 120, 120, 1);
+    --bg_playstation_plus:rgba(217, 218, 220, 1);
+    --bg_btn_playstation_now: rgba(245, 245, 245, 1);
+    --bg_footer:rgba(0, 67, 156, 1);
+}
+
+/* #region Colors */
+.bg_dark{
+    background-color: var(--bg_dark);
+}
+
+.bg_light{
+    background-color: var(--bg_light);
+}
+
+.bg_card_game{
+    background-color: var(--bg_card_game);
+}
+
+.bg_playstation_plus{
+    background-color: var(--bg_playstation_plus);
+}
+
+.bg_footer{
+    background-color: var(--bg_footer);
+}
+
+.color_text_secondary{
+    color: var(--color_text_secondary);
+}
+
+/* Btn colors */
+
+.bg_btn_nav{
+    background-color: var(--bg_btn_nav);
+}
+
+.bg_btn_returnal{
+    background-color: var(--bg_btn_returnal);
+}
+
+.bg_btn_console{
+    background-color: var(--bg_btn_console);
+}
+
+.bg_btn_playstation_now{
+    background-color: var(--bg_btn_playstation_now);
+}
+
+/* #endregion Colors */
+
