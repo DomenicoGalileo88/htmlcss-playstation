@@ -56,3 +56,102 @@
 
 /* #endregion Colors */
 
+/* #region Header */
+
+/* #endregion Header */
+
+
+/* #region Debug */
+.debug .logo_sony{
+    height: 20px;
+}
+
+.debug nav{
+    height: 50px;
+}
+
+.debug .container{
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid var(--bg_footer);
+}
+
+.debug .returnal{
+    background-color: var(--bg_btn_returnal);
+    height: 400px;
+}
+
+.debug .returnal_controls{
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.debug .there_playstation{
+    height: 150px;
+    background-color: rgb(118, 20, 247);
+}
+
+.debug .console_playstation{
+    height: 300px;
+    background-color: cornflowerblue;
+}
+
+.debug .controller_playstation{
+    height: 100px;
+    background-color:coral;
+}
+
+.debug .adventure{
+    background-color: var(--bg_btn_returnal);
+    height: 400px;
+}
+
+.debug .new_releases{
+    background-color: yellowgreen;
+    height: 400px;
+}
+
+.debug .explore_playstation{
+    height: 100px;
+    background-color:coral;
+}
+
+.debug .vr_playstation{
+    height: 300px;
+    background-color: cornflowerblue;
+}
+
+.debug .playstation_plus{
+    background-color: yellowgreen;
+    height: 400px;
+}
+
+.debug .discounts{
+    height: 100px;
+    background-color:coral;
+}
+
+.debug .game_discount{
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+.debug .playstation_now{
+    height: 300px;
+    background-color:coral;
+}
+
+.debug .social{
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+.debug .bg_footer{
+    height: 400px;
+}
+
+
+
+
+
+/* #endregion Debug */
