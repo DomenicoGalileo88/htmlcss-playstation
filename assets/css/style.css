@@ -6,9 +6,14 @@
     --bg_btn_console: rgba(45, 100, 230, 1);
     --bg_card_game: rgba(31, 31, 31, 1);
     --color_text_secondary: rgba(120, 120, 120, 1);
+    --color_text_dark: black;
     --bg_playstation_plus:rgba(217, 218, 220, 1);
     --bg_btn_playstation_now: rgba(245, 245, 245, 1);
     --bg_footer:rgba(0, 67, 156, 1);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* #region Colors */
@@ -58,7 +63,57 @@
 
 /* #region Header */
 
+/*  Nav */
+.navbar-light .navbar-nav .nav-link{
+    color: var(--color_text_dark);
+}
+
+nav .dropdown-item {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-toggle{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after{
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107";
+}
+
+/* nav .dropdown-menu.show {
+    display: flex;
+    justify-content: center;
+} */
+
+.dropdown-toggle.show::after{
+    content: "\f106";
+}
+
+nav hr{
+    height: 100px;
+}
+
+nav .dropdown_menu_link li{
+    list-style:disc ;
+    margin-right: 3rem;
+}
+
+
 /* #endregion Header */
+
+/* #region Main */
+
+/* #endregion Main */
+
+/* #region Footer */
+
+/* #endregion Footer */
 
 
 /* #region Debug */
