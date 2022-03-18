@@ -131,6 +131,19 @@ nav .dropdown_menu_link li{
     background-position: left;
 }
 
+.returnal_controls img{
+    border-radius: 1rem ;
+    
+}
+
+.returnal_controls img:hover{
+    border: 1px solid var(--bg_btn_console);
+}
+
+.returnal_controls .img_returnal_controls:hover{
+    box-shadow: 20px 20px 20px red ;
+
+}
 /* #endregion Main */
 
 /* #region Footer */
