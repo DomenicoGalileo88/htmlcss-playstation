@@ -171,6 +171,11 @@ nav .dropdown_menu_link li{
     border: 2px solid var(--bg_btn_console);
 }
 
+.controller_playstation .img_controller:hover{
+    border-bottom: 2px solid var(--bg_btn_console);
+    opacity: 0.8;
+}
+
 /* #endregion Main */
 
 /* #region Footer */
