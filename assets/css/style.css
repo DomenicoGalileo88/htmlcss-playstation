@@ -7,7 +7,9 @@
     --bg_card_game: rgba(31, 31, 31, 1);
     --color_text_secondary: rgba(120, 120, 120, 1);
     --color_text_dark: black;
-    --bg_playstation_plus:rgba(217, 218, 220, 1);
+    --bg_playstation_plus:rgba(190, 188, 187, 1);
+    --bg_btn_playstation_plus:rgba(217, 218, 220, 1);
+    --bg_playstation_now: rgba(22, 28, 59, 1);
     --bg_btn_playstation_now: rgba(245, 245, 245, 1);
     --bg_footer:rgba(0, 67, 156, 1);
 }
@@ -39,6 +41,14 @@ body{
 
 .bg_footer{
     background-color: var(--bg_footer);
+}
+
+.bg_btn_playstation_plus{
+    background-color: var(--bg_btn_playstation_plus);
+}
+
+.bg_playstation_now{
+    background-color: var(--bg_playstation_now);
 }
 
 .color_text_secondary{
@@ -75,6 +85,20 @@ body{
     padding: 6rem;
 }
 
+.px_6{
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.py_4{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.pt_6{
+    padding-top: 6rem;
+}
+
 .pt_10{
     padding-top: 10rem;
 }
@@ -83,8 +107,21 @@ body{
     padding-top: 23rem;
 }
 
+.pb_4{
+    padding-bottom: 4rem;
+}
+
 .ms_n2{
     margin-left: -0.5rem;
+}
+
+
+.fs_special_1{
+    font-size: 1.3rem;
+}
+
+.pb_7{
+    padding-bottom: 4rem;
 }
 
 /* #region Header */
@@ -143,7 +180,8 @@ nav .dropdown_menu_link li{
     background-position: left;
 }
 
-.returnal_controls img{
+.returnal_controls img,
+.new_releases img{
     border-radius: 1rem;
 }
 
@@ -171,11 +209,39 @@ nav .dropdown_menu_link li{
     border: 2px solid var(--bg_btn_console);
 }
 
-.controller_playstation .img_controller:hover{
+.controller_playstation .col:hover{
     border-bottom: 2px solid var(--bg_btn_console);
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
+.controller_playstation img{
+    max-height: 130px;
+}
+
+.controller_playstation .text_controller{
+    max-width: 80%;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.jumbotron_adventure{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.img_new_releases{
+    margin-top: 1.5rem;
+}
+
+.text_img_new_releases{
+    font-size: 1.2rem;
+}
+
+.game_discount img{
+    aspect-ratio: 1 / 1;
+}
 /* #endregion Main */
 
 /* #region Footer */
