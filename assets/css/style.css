@@ -226,7 +226,14 @@ nav .dropdown_menu_link li{
 
 .controller_playstation .col:hover{
     border-bottom: 2px solid var(--bg_btn_console);
+}
+
+.controller_playstation .col:hover .img_controller img{
     opacity: 0.6;
+}
+
+.controller_playstation .col:hover .img_controller .text_controller{
+    color: var(--bg_dark);
 }
 
 .controller_playstation img{
