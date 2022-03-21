@@ -85,7 +85,7 @@ body{
     padding: 6rem;
 }
 
-.px_6{
+.px_20{
     padding-left: 20rem;
     padding-right: 20rem;
 }
@@ -203,7 +203,7 @@ nav .dropdown_menu_link li{
 
 .text_jumbo{
     width: calc(100% - 3rem);
-    top: 50%;
+    top: 45%;
 }
 
 .returnal_controls img,
@@ -245,16 +245,23 @@ nav .dropdown_menu_link li{
 }
 
 .controller_playstation .text_controller{
-    max-width: 80%;
+    max-width: 70%;
     text-align: center;
     margin-top: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .jumbotron_adventure{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: top center;
+    height: 750px;
+}
+
+.text_adventure{
+    width: calc(100% - 3rem);
+    
 }
 
 .img_new_releases{
@@ -263,6 +270,21 @@ nav .dropdown_menu_link li{
 
 .text_img_new_releases{
     font-size: 1.2rem;
+}
+
+.playstation_plus,
+.playstation_now{
+    height: 400px;
+}
+
+.playstation_plus .img_playstation_plus,
+.playstation_now .img_playstation_now{
+    display: none;
+}
+
+.playstation_plus .img_playstation_plus img,
+.playstation_now .img_playstation_now img{
+    height: 100%;
 }
 
 .game_discount img{
@@ -283,6 +305,11 @@ nav .dropdown_menu_link li{
 .logo_sony_footer img{
     height: 50px;
 }
+
+#site_footer li{
+    padding-bottom: 0.5rem;
+}
+
 /* #endregion Footer */
 
 
@@ -391,25 +418,45 @@ nav .dropdown_menu_link li{
 
 /* Md */
 @media screen and (min-width: 768px) {
-    
+  .img_playstation_plus,
+    .img_playstation_now{
+        display: block!important;
+    }
+
+    .text_playstation_plus,
+    .text_playstation_now{
+        width: 50%;
+    }
 }
 
 /* Lg */
 @media screen and (min-width: 992px) {
-    .text_jumbo{
-        width: 35%;
+    .text_jumbo,
+    .text_adventure{
+        width: 30%;
+    }
+
+    .social_row{
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 
 }
 
 /* Xl */
 @media screen and (min-width: 1200px) {
-    
+    .social_row{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
 }
 
 /* Xxl */
 @media screen and (min-width: 1400px) {
-    
+    .social_row{
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
 }
 
 /* #endregion Media query */
