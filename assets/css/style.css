@@ -20,6 +20,7 @@ body{
 
 .btn:hover{
     box-shadow:inset 0 0 0 2px white;
+    border: 1px solid var(--bg_dark);
 }
 
 /* #region Colors */
@@ -293,7 +294,7 @@ nav .dropdown_menu_link li{
 
 .playstation_now .btn:hover{
     box-shadow:inset 0 0 0 2px var(--bg_dark);
-
+    border: 1px solid var(--bg_btn_playstation_now);
 }
 
 /* #endregion Main */
@@ -313,6 +314,11 @@ nav .dropdown_menu_link li{
 
 #site_footer li{
     padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+#site_footer li:hover{
+    color: var(--bg_btn_returnal);
 }
 
 /* #endregion Footer */
@@ -415,11 +421,6 @@ nav .dropdown_menu_link li{
 
 
 /* #region Media query */
-
-/* Sm */
-@media screen and (min-width: 576px) {
-    
-}
 
 /* Md */
 @media screen and (min-width: 768px) {
