@@ -263,6 +263,12 @@ nav .dropdown_menu_link li{
 
 .img_new_releases{
     margin-top: 1.5rem;
+    transition: all 1s;
+}
+
+.img_new_releases:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
 }
 
 .text_img_new_releases{
