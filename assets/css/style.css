@@ -432,6 +432,10 @@ nav .dropdown_menu_link li{
         width: 30%;
     }
 
+    .jumbotron_adventure{
+        height: 830px;
+    }
+
     .social_row{
         padding-left: 5rem;
         padding-right: 5rem;
