@@ -301,13 +301,13 @@
     <!-- /#site_header -->
 
     <main id="site_main">
-        <section class="jumbotron text-light">
-            <div class="container pt_23 pb-5">
+        <section class="jumbotron position-relative text-light p-5">
+            <div class="text_jumbo position-absolute">
                 <div class="returnal_banner ms_n2 mb-5">
                     <img height="60" src="./assets/img/returnal-hero-banner-logo.png" alt="">
                 </div>
-                <h1 class="display-2 pb-4">Rompi il cerchio</h1>
-                <p class="w-50 fs-3 text-start">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni
+                <h1 class="title_jumbotron pb-4">Rompi il cerchio</h1>
+                <p class=" text_jumbotron text-start">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni
                     rinascita si questo esplosivo
                     thriller fantascientifico, disponibile in esclusiva su PS5.</p>
                 <p class="lead">
@@ -315,12 +315,13 @@
                         role="button">Acquista ora</a>
                 </p>
             </div>
+            <!-- posizionalo con il position non con margin il testo -->
         </section>
         <!-- /.returnal -->
 
         <section class="returnal_controls">
-            <div class="container py-4">
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 gy-4">
+            <div class="p-5">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-xl-6 gy-4">
                     <div class="col">
                         <div class="img_returnal_controls">
                             <img class="img-fluid" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
@@ -364,7 +365,7 @@
         <!-- /.returnal_controls -->
 
         <section class="there_playstation">
-            <div class="container text-center">
+            <div class="p-5 text-center">
                 <div class="p-5 d-flex flex-column align-items-center">
 
                     <div class="text-uppercase color_text_blue fw-bold">
@@ -383,7 +384,7 @@
         <!-- /.there_playstation -->
 
         <section class="console_playstation">
-            <div class="container">
+            <div class="p-5">
                 <div class="row">
                     <div class="col-12 col-md-6 pt_10">
                         <div class="">
@@ -401,13 +402,15 @@
                     <div class="col-12 col-md-6">
                         <img class="img-fluid" src="./assets/img/playstation-5-thumb.png" alt="">
                     </div>
+
+                    <!-- cambia le misure nelle col e agg alla riga e posizionala con flex la scritta con il titolo non con margine o padding -->
                 </div>
             </div>
         </section>
         <!-- /.console_playstation -->
 
         <section class="controller_playstation pt-5">
-            <div class="container">
+            <div class="p-5">
                 <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 gy-4 pb-4">
                     <div class="col">
                         <div class="img_controller pb-3  d-flex flex-column align-items-center">
@@ -461,7 +464,7 @@
         <!-- /.controller_playstation -->
 
         <section class="jumbotron_adventure text-light">
-            <div class="container pt-5 pb-5">
+            <div class="p-5">
                 <div class="adventure_banner ms_n2 mb-5">
                     <img height="250" src="./assets/img/it-takes-two-logo.png" alt="">
                 </div>
@@ -478,8 +481,8 @@
         </section>
         <!-- /.adventure -->
 
-        <section class="new_releases text-light bg_card_game pb_7">
-            <div class="container">
+        <section class="new_releases text-light bg_card_game pb_7 pt-5">
+            <div class="p-5">
                 <h2 class="fw-bold fs-1">Nuove uscite</h2>
                 <p class="lead fs-2 fw-bold">Giochi incredibili per PS4 e PS5 disponibili ora</p>
 
@@ -605,7 +608,7 @@
         <!-- /.new_releases -->
 
         <section class="explore_playstation py-5">
-            <div class="container text-center">
+            <div class="p-5 text-center">
                 <div class="p-5 d-flex flex-column align-items-center">
 
                     <h2 class="display-6">
@@ -622,7 +625,7 @@
         <!-- /.explore_playstation -->
 
         <section class="vr_playstation pb_7">
-            <div class="container">
+            <div class="p-5">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <div class="col">
                         <div class="card border-0">
@@ -675,7 +678,7 @@
 
         <section class="playstation_plus bg_playstation_plus d-flex">
 
-            <div class="container">
+            <div class="p-5">
                 <div class="row row-cols-1 row-cols-md-2">
                     <div class="col">
                         <div class="content_playstation_plus pt_6">
@@ -707,7 +710,7 @@
         <!-- /.playstation_plus -->
 
         <section class="discounts">
-            <div class="container text-center">
+            <div class="p-5 text-center">
                 <div class="p-5 d-flex flex-column align-items-center">
 
                     <h2 class="display-6">
@@ -723,7 +726,7 @@
         <!-- /.discounts -->
 
         <section class="game_discount">
-            <div class="container">
+            <div class="p-5">
                 <div class="row row-cols-1 row-cols-md-3 pb_7 gy-5">
                     <div class="col">
                         <img class="img-fluid" src="./assets/img/playstation-store-games-under-20-spotlight.jpg" alt="">
@@ -745,7 +748,7 @@
 
         <section class="playstation_now bg_playstation_now d-flex">
 
-            <div class="container">
+            <div class="p-5">
 
                 <div class="row row-cols-1 row-cols-md-2">
 
@@ -779,7 +782,7 @@
         <!-- /.playstation_now -->
 
         <section class="social">
-            <div class="container px_6">
+            <div class="p-5">
                 <h2 class="fs-2 fw-bold text-center py_4">
                     Seguici sui social media
                 </h2>
@@ -809,8 +812,63 @@
     </main>
     <!-- /#site_main -->
 
-    <footer id="site_footer" class="bg_footer">
-        <div class="container"></div>
+    <footer id="site_footer" class="bg_footer text-white">
+        <div class="p-5">
+            <div class="row pt_5 pb_6 gy-4">
+                <div class="col-12 col-lg-6">
+                    <div class="logo_ps_footer pb-4">
+                        <img class="img-fluid" src="./assets/img/ps-footer.svg" alt="">
+                    </div>
+
+                    <div class="country d-flex align-items-center">
+                        <img class="img-fluid" src="./assets/img/language-globe.svg" alt="">
+                        <span class="text_country ms-2">
+                            Country/Region: Italy
+                        </span>
+                    </div>
+
+                    <div class="logo_sony_footer d-flex flex-column align-items-start mt_6">
+                        <img class="img-flui" src="./assets/img/sie-logo.svg" alt="">
+                        <span class="text_logo_sony_footer mt-3">
+                            Website ©2022 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di
+                            abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da
+                            copyright dei rispettivi proprietari. Tutti i diritti riservati. Maggiori info
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-2">
+                    <ul class="list-unstyled">
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg-2">
+                    <ul class="list-unstyled">
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg-2">
+                    <ul class="list-unstyled">
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                        <li>Link footer n</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.row row-cols-1-row-cols-md-2 -->
+        </div>
     </footer>
     <!-- /#site_footer -->
 

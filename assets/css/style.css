@@ -79,7 +79,7 @@ body{
 
 /* #endregion Colors */
 
-/* Utility */
+/* #region Utility */
 
 .p_6{
     padding: 6rem;
@@ -93,6 +93,15 @@ body{
 .py_4{
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.py_5{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.pt_5{
+    padding-top: 5rem;
 }
 
 .pt_6{
@@ -111,8 +120,16 @@ body{
     padding-bottom: 4rem;
 }
 
+.pb_6{
+    padding-bottom: 6rem;
+}
+
 .ms_n2{
     margin-left: -0.5rem;
+}
+
+.mt_6{
+    margin-top: 6rem;
 }
 
 
@@ -123,6 +140,9 @@ body{
 .pb_7{
     padding-bottom: 4rem;
 }
+
+/* #endregion Utility */
+
 
 /* #region Header */
 
@@ -177,7 +197,13 @@ nav .dropdown_menu_link li{
     background-image: url('../img/jumbo-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: top center;
+    height: 750px;
+}
+
+.text_jumbo{
+    width: 100%;
+    top: 50%;
 }
 
 .returnal_controls img,
@@ -242,10 +268,21 @@ nav .dropdown_menu_link li{
 .game_discount img{
     aspect-ratio: 1 / 1;
 }
+
 /* #endregion Main */
 
 /* #region Footer */
+.logo_ps_footer img{
+    height: 70px;
+}
 
+.country img{
+ height: 15px;   
+}
+
+.logo_sony_footer img{
+    height: 50px;
+}
 /* #endregion Footer */
 
 
@@ -343,3 +380,36 @@ nav .dropdown_menu_link li{
 
 
 /* #endregion Debug */
+
+
+/* #region Media query */
+
+/* Sm */
+@media screen and (min-width: 576px) {
+    
+}
+
+/* Md */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* Lg */
+@media screen and (min-width: 992px) {
+    .text_jumbo{
+        width: 40%!important;
+    }
+
+}
+
+/* Xl */
+@media screen and (min-width: 1200px) {
+    
+}
+
+/* Xxl */
+@media screen and (min-width: 1400px) {
+    
+}
+
+/* #endregion Media query */
