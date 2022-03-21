@@ -202,7 +202,7 @@ nav .dropdown_menu_link li{
 }
 
 .text_jumbo{
-    width: 100%;
+    width: calc(100% - 3rem);
     top: 50%;
 }
 
@@ -397,7 +397,7 @@ nav .dropdown_menu_link li{
 /* Lg */
 @media screen and (min-width: 992px) {
     .text_jumbo{
-        width: 40%!important;
+        width: 35%;
     }
 
 }
