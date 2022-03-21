@@ -211,25 +211,14 @@ nav .dropdown_menu_link li{
     border-radius: 1rem;
 }
 
+.returnal_controls img{
+    transition: all 1300ms;
+}
+
 .returnal_controls img:hover{
-    animation-name: bounce;
-    animation-duration: 1s;
-    animation-timing-function: linear;
+    transform: translate(0, -10%);
 }
 
-@keyframes bounce {
-    0%{
-        transform: translate(0, 0);    }
-
-    50%{
-        transform: translate(0, -30%);
-    }
-
-    100%{
-        transform: translate(0, 0);
-    }
-    
-}
 
 .returnal_controls img:hover{
     border: 2px solid var(--bg_btn_console);
