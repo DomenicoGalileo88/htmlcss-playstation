@@ -273,6 +273,10 @@ nav .dropdown_menu_link li{
     height: 400px;
 }
 
+.playstation_plus .btn:hover{
+    color: var(--bg_btn_console);
+}
+
 .playstation_plus .img_playstation_plus,
 .playstation_now .img_playstation_now{
     display: none;
@@ -285,6 +289,11 @@ nav .dropdown_menu_link li{
 
 .game_discount img{
     aspect-ratio: 1 / 1;
+}
+
+.playstation_now .btn:hover{
+    box-shadow:inset 0 0 0 2px var(--bg_dark);
+
 }
 
 /* #endregion Main */
